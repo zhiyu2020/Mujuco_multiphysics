@@ -1,0 +1,80 @@
+Fri Aug 25 11:23:23 2023
+ERROR: Load model error: mjParseXML: filename argument required
+
+
+Fri Aug 25 11:31:42 2023
+ERROR: Load model error: mjParseXML: filename argument required
+
+
+Fri Aug 25 11:34:11 2023
+ERROR: Load model error: mjParseXML: filename argument required
+
+
+Fri Aug 25 11:40:52 2023
+ERROR: Load model error: mjParseXML: filename argument required
+
+
+Fri Aug 25 11:53:54 2023
+ERROR: Load model error: mjParseXML: filename argument required
+
+
+Fri Aug 25 11:54:55 2023
+ERROR: Load model error: mjParseXML: filename argument required
+
+
+Sun Sep 24 12:38:36 2023
+ERROR: Load model error: XML parse error 8:
+Error=XML_ERROR_PARSING_TEXT ErrorID=8 (0x8) Line number=1
+
+
+Sun Sep 24 21:04:56 2023
+ERROR: Load model error: XML parse error 8:
+Error=XML_ERROR_PARSING_TEXT ErrorID=8 (0x8) Line number=1
+
+
+Sun Sep 24 21:05:22 2023
+ERROR: Load model error: XML parse error 8:
+Error=XML_ERROR_PARSING_TEXT ErrorID=8 (0x8) Line number=1
+
+
+Sun Sep 24 22:48:01 2023
+ERROR: Load model error: XML parse error 8:
+Error=XML_ERROR_PARSING_TEXT ErrorID=8 (0x8) Line number=1
+
+
+Sun Sep 24 22:48:49 2023
+ERROR: Load model error: XML parse error 8:
+Error=XML_ERROR_PARSING_TEXT ErrorID=8 (0x8) Line number=1
+
+
+Sun Oct  8 20:14:37 2023
+ERROR: Load model error: XML Error: Schema violation: unrecognized element
+
+Element 'size', line 5
+
+
+Sun Oct  8 20:15:02 2023
+ERROR: Load model error: XML Error: Schema violation: unrecognized element
+
+Element 'size', line 5
+
+
+Wed Oct 11 17:23:22 2023
+ERROR: Load model error: XML Error: problem reading attribute 'diaginertia'
+Element 'inertial', line 21
+
+
+Wed Oct 11 17:27:13 2023
+ERROR: Load model error: XML Error: problem reading attribute 'diaginertia'
+Element 'inertial', line 21
+
+
+Thu Oct 12 14:39:44 2023
+ERROR: Load model error: Error: range[0] should be smaller than range[1] in joint 'pin1' (id = 0)
+Object name = pin1, id = 0, line = 19, column = -1
+
+Thu Oct 12 14:54:59 2023
+ERROR: Load model error: XML Error: invalid keyword: 'false'
+Element 'flag', line 5
+
+

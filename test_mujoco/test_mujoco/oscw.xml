@@ -1,0 +1,35 @@
+<mujoco>
+	<size nuserdata="6"/>
+	<compiler angle="degree" balanceinertia="true"/>
+	<!-- radian表示xml中euler的角度变化  radian是角度变化 -->
+	<option timestep="0.004" integrator="RK4" cone = "pyramidal" gravity = "0 0 0">
+		<flag sensornoise="disable" energy="disable" contact="disable" />		
+	</option>
+<!-- 	<default>
+		<joint limited = "true" range = "-180 180" damping = "0.1" />
+	</default> -->
+	<worldbody>
+        <light diffuse=".5 .5 .5" pos="0 0 3" dir="0 0 -1"/>
+		<!-- <geom type="plane" size="1 1 0.1" rgba=".9 0 0 1"/> -->
+		<body pos="0.92 0.315 0" euler="0 0 0">
+			<!-- <joint name="pin" type="hinge" axis = "0 -1 0" pos="0 0 -0.5"/> -->
+			<!-- <geom type="box" size="0.05 0.5" rgba="0 .9 0 1" mass="1"/> -->
+			<!-- <geom type="box"  size=".06 0.05 .52" rgba=".9 .6 .9 1" /> -->
+<!-- 			<body pos="0 0 0" euler="0 0 0" > -->
+				<joint name="pin1" type="hinge"  axis = "0 0 1" pos="0 -0.24 0.2" damping = "50" /> 
+				<geom type="box" size=".06 0.24 .52" rgba="0 0 .9 1" mass="33.04" />
+				<inertial pos="0 -0.24 0" mass="33.04" diaginertia="0 0 1.84"/>
+				<!-- <site name="endeff" pos="0 0.24 0.52" size="0.1"/> -->
+			<!-- </body> -->
+		</body>
+	</worldbody>
+	<!-- <actuator>
+		<motor joint="pin" name="torque" gear="1" ctrllimited="true" ctrlrange="-100 100" />
+		<position name="position_servo" joint="pin" kp="10" />
+		<velocity name="velocity_servo" joint="pin" kv="0" />
+	</actuator> -->
+<!-- 	<sensor>
+		<jointpos joint="pin1"/>
+		<jointvel joint="pin1"/>
+	</sensor> -->
+</mujoco>
